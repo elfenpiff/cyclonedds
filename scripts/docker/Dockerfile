@@ -8,7 +8,7 @@
 
 # SPDX-License-Identifier: EPL-2.0 OR BSD-3-Clause
 
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 
 # Dependencies required to build cyclonedds
 RUN apt update && apt install -y \
